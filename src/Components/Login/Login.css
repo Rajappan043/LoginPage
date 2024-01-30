@@ -1,0 +1,92 @@
+*{
+    /* background-color:bisque; */
+}
+.Login{
+    /* background-color:hotpink; */
+    position: absolute;
+    left:15%;
+    top:20%;
+    width: 30%;
+}
+.img{
+    top: 15%;
+    position: absolute;
+    /* background-color: aqua; */
+    right:13%;
+}
+.login-now{
+    text-align: center;
+}
+.inputs{
+    width: 90%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #9f43f140;
+    font-size: 18px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    padding: 0 10px;
+
+}
+.button{
+    margin-top: 20px;
+    width: 94%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #573b8a;
+    font-size: 25px;
+    cursor: pointer;
+    justify-content: center;
+}
+.Remember{
+    display: flex;
+}
+.Forgot{
+    position: absolute;
+    right:30px;
+    color: #573b8a;
+}
+.Create{
+    margin-top: 20px;
+    text-align: center;
+}
+.icon{
+    margin-left: -25px;
+    border: none;
+}
+.error{
+    color: red;
+}
+.Remember-me{
+    font-weight:bolder;
+}
+/* .signin-btn{
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    width: 10%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #573b8a;
+} */
+@media screen and (max-width:1100px) {
+    .Login{
+        position:absolute;
+        overflow: auto;
+        width: 15px;
+        top:20%;
+        left: 25%;
+    }
+    .img{
+        display: none;
+    }
+    
+}
