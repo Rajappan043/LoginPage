@@ -7,8 +7,5 @@ export default function validate(value) {
   if (value.password.length < 8) {
     errors.password = "Password must be at least 8 characters";
   }
-  if (!(String(value.password) === String(value.ConfirmPassword))) {
-    errors.ConfirmPassword = "Password does not match";
-  }
   return errors;
 }
