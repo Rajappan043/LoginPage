@@ -1,8 +1,5 @@
-*{
-    /* background-color:bisque; */
-}
+
 .Login{
-    /* background-color:hotpink; */
     position: absolute;
     left:15%;
     top:20%;
@@ -11,7 +8,6 @@
 .img{
     top: 15%;
     position: absolute;
-    /* background-color: aqua; */
     right:13%;
 }
 .login-now{
@@ -64,29 +60,4 @@
 }
 .Remember-me{
     font-weight:bolder;
-}
-/* .signin-btn{
-    position: absolute;
-    top: 5%;
-    right: 15%;
-    width: 10%;
-    height: 40px;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    color: #fff;
-    background: #573b8a;
-} */
-@media screen and (max-width:1100px) {
-    .Login{
-        position:absolute;
-        overflow: auto;
-        width: 15px;
-        top:20%;
-        left: 25%;
-    }
-    .img{
-        display: none;
-    }
-    
 }
